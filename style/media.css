@@ -1,0 +1,319 @@
+@media (max-width: 1000px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .nav__title {
+    margin: 10px;
+    font-size: 24px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+
+  .nav_link {
+    font-size: 18px;
+  }
+
+  .intro__box {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 20px;
+  }
+  .card_1 img,
+  .card_2 img,
+  .card_3 img {
+    height: 80px;
+    width: 100%;
+    max-width: 130px;
+  }
+  .menu_btn {
+    height: 30px;
+    width: 30px;
+  }
+  .intro__card {
+    min-height: 250px;
+    max-width: 100%;
+    flex-shrink: 0;
+
+    padding: 20px;
+  }
+  .card_2 {
+    grid-row: span 1;
+    padding: 20px;
+  }
+  .intro__card__list {
+    margin: 20px;
+  }
+
+  .intro__card__list h3 {
+    font-size: 16px;
+  }
+
+  .chegirma {
+    width: 70px;
+    height: 30px;
+    font-size: 14px;
+  }
+
+  .About__title {
+    font-size: 26px;
+    margin-top: 40px;
+  }
+
+  .about__box {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .about__card {
+    min-height: 200px;
+    height: auto;
+    padding: 20px;
+  }
+
+  .about__card h3 {
+    font-size: 18px;
+  }
+
+  .about__info {
+    font-size: 26px;
+    margin-top: 40px;
+  }
+
+  .news__box {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .footer__title {
+    font-size: 20px;
+  }
+
+  .footer__link {
+    font-size: 16px;
+  }
+
+  .like__box {
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .like {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 800px) {
+  .menu_btn img {
+    width: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .menu_btn {
+    width: 30px;
+  }
+  .menu_btn {
+    display: block;
+    margin-top: 20px;
+  }
+  .nav_link {
+    display: none;
+  }
+  .search {
+    left: 0;
+    top: 20px;
+    position: absolute;
+  }
+  .nav {
+    position: relative;
+  }
+  .basket,
+  .save,
+  .accaunt,
+  .lang {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .nav__title {
+    font-size: 20px;
+  }
+
+  .nav ul {
+    gap: 15px;
+  }
+
+  .nav_link {
+    font-size: 16px;
+  }
+
+  .intro__card {
+    padding: 15px;
+  }
+
+  .card_1 img,
+  .card_3 img,
+  .card_2 img {
+    width: 80px;
+    height: 100px;
+  }
+
+  .intro__card__list {
+    margin: 15px;
+  }
+
+  .intro__card__list h3 {
+    font-size: 14px;
+  }
+
+  .chegirma {
+    width: 60px;
+    height: 25px;
+    font-size: 12px;
+  }
+
+  .About__title {
+    font-size: 24px;
+  }
+
+  .about__box {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    gap: 40px;
+    display: flex;
+    overflow-x: scroll;
+  }
+
+  .about__card {
+    min-height: 180px;
+    padding: 15px;
+  }
+
+  .about__card h3 {
+    font-size: 16px;
+  }
+
+  .about__info {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+
+  .news__box {
+    gap: 15px;
+  }
+
+  .footer {
+    padding: 15px;
+  }
+
+  .footer__title {
+    font-size: 18px;
+  }
+
+  .footer__link {
+    font-size: 14px;
+  }
+
+  .like {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 300px) {
+  .nav__title {
+    font-size: 18px;
+  }
+
+  .nav ul {
+    gap: 10px;
+  }
+
+  .nav_link {
+    font-size: 14px;
+  }
+
+  .intro__box {
+    gap: 10px;
+  }
+
+  .intro__card {
+    padding: 10px;
+  }
+
+  .card_1 img,
+  .card_3 img,
+  .card_2 img {
+    width: 60px;
+    height: 80px;
+  }
+
+  .intro__card__list {
+    margin: 10px;
+  }
+
+  .intro__card__list h3 {
+    font-size: 12px;
+  }
+
+  .chegirma {
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+  }
+
+  .About__title {
+    font-size: 20px;
+  }
+
+  .about__card {
+    min-height: 160px;
+    padding: 10px;
+  }
+
+  .about__card h3 {
+    font-size: 14px;
+  }
+
+  .about__info {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  .news__box {
+    gap: 10px;
+  }
+
+  .footer {
+    padding: 10px;
+  }
+
+  .footer__title {
+    font-size: 16px;
+  }
+
+  .footer__link {
+    font-size: 12px;
+  }
+
+  .like {
+    width: 20px;
+    height: 20px;
+  }
+}
